@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323', monospace;
+    /* background-image: url("../../kick-knowledge/retro-arcade.png");
+    background-repeat: no-repeat;
+    background-size:cover; */
+  }
+  
+  body,
+  .snake {
+    background-color: #fff;
+  }
+  
+  #game-board {
+    border-radius: 100px;
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+    margin: 5px;
+  }
+  
+  .game-border-1 {
+    border: #274871 solid 10px;
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 10px #274871;
+  }
+  
+  .game-border-2 {
+    border: #006F9B solid 8px;
+    border-radius: 26px;
+    box-shadow: inset 0 0 0 10px #006F9B;
+  }
+  
+  .game-border-3 {
+    border: #07628F solid 30px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 5px #07628F;
+  }
+  
+  #instruction-text {
+    position: absolute;
+    top: 60%;
+    color: #333;
+    width: 300px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 30px;
+    margin: 0;
+  }
+  
+  .scores {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #score {
+    color: #ca6826;
+  }
+  
+  #score,
+  #highScore {
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 10px 0;
+  }
+  
+  #highScore {
+    color: #d8ddca;
+    display: none;
+  }
+  
+  .game-border-3,
+  #logo {
+    background-color: #fff;
+  }
+  
+  .snake {
+    background-color: #006F9B;
+    border: #274871 1px dotted;
+  }
+  
+  .food {
+    background-color: #ca6826;
+    border: #f5a067 5px solid;
+  }
+  
+  #logo {
+    position: absolute;
+  }
