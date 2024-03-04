@@ -1,0 +1,55 @@
+body {
+	/* display: flex; */
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0; 
+    font-family: 'VT323', monospace;
+	text-align: center;
+	background-image: url("grass.jpeg");
+	background-repeat: repeat-x;
+    background-size: cover;
+} 
+
+h1{
+	color: #5F9DF7;
+	background-color: rgba(240, 248, 255, 0.735);
+}
+
+h2 {
+	padding: 5px;
+}
+
+div.score-time {
+	color: #FF731D;
+	display: flex;
+	width: 100vw;
+	justify-content: center;
+}
+
+.grid {
+	width: 606px;
+	height: 606px;
+	display: flex;
+	margin: auto;
+	flex-wrap: wrap;
+	cursor: url("hammer3.png"), url("hammer4.png"), auto;
+	background-image: url("bgimage.jpg");
+	background-repeat: repeat-x;
+    background-size: cover;
+	border-radius: 10%;
+	border: solid 10px #5F9DF7;
+}
+
+.square {
+	padding: 0;
+	margin: 0;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+.mole {
+	background-image: url("mole.png");
+	background-size: cover;
+}
